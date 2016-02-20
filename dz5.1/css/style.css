@@ -1,0 +1,59 @@
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td{
+    border: 10px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.yel1,
+.yel2,
+.yel3{
+    background-color: #fff123;
+}
+
+.black_litle,
+.black_cell{
+    background-color: #0e0e0e;
+}
+.red_big{
+
+    background-color: #ff0e0b;
+}
+
+.blue_cell{
+    background-color: #2920ff;
+}
+.black_cell{
+    width: 180px;
+}
+.weight1{
+    width: 100px;
+}
+
+
+.height1
+{
+    height: 170px;
+}
+.height2
+{
+    height: 70px;
+}
+
+
+.l{
+    border-left-width: 0px;
+}
+.t{
+    border-top-width: 0px;
+}
+.r{
+    border-right-width: 0px;
+}
+.b{
+    border-bottom-width: 0px;
+}
