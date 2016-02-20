@@ -1,6 +1,7 @@
 table{
     border-collapse: collapse;
     margin: 20px auto;
+    border: 20px solid white
 }
 
 td{
@@ -42,18 +43,4 @@ td{
 .height2
 {
     height: 70px;
-}
-
-
-.l{
-    border-left-width: 0px;
-}
-.t{
-    border-top-width: 0px;
-}
-.r{
-    border-right-width: 0px;
-}
-.b{
-    border-bottom-width: 0px;
 }
