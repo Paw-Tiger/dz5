@@ -1,0 +1,204 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+.general_menu {
+    display: inline-block;
+    background-image: url("../img/bg-menu.png");
+    background-repeat: repeat;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+    line-height: 30px;
+}
+ul.menu  li a.bord_a{
+    border-right:1px solid #56a2dc ;
+}
+ul.menu  li a.ola{
+    display: inline;
+    text-decoration: underline;
+    color: white;
+}
+ul.menu  li a.ola:hover{
+    background-color: transparent;
+}
+ul.menu .ola_bg{
+    background-image: url("../img/ola_bg.jpg");
+    background-repeat: repeat-x;
+}
+.menu li.wm{
+    width:15%
+}
+.menu .fl{
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: -6px;
+}
+.menu li{
+
+    display: inline;
+    position: relative;
+    float:right;
+    line-height: 30px;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    width: 8%;
+
+}
+.menu > a{
+
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+ul.menu > li > a {
+    display: block;
+    color: #60b5ed;
+    text-decoration: none;
+    white-space: nowrap;
+}
+ul.menu  li  a:hover{
+    background-color: #4eabda;
+    color: white;
+}
+
+.register{
+    display: block;
+    background-color: rgba(15, 11, 11, 0.5);
+    //opacity: 0.5;
+    margin: 0px auto;
+    margin-top: 75px;
+    //padding: 1%;
+    width: 500px;
+    height: 550px;
+    font-family: Tahoma;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+h1{
+    padding: 15px;
+    padding-bottom: 10px;
+
+}
+hr{
+    color: #c1c9ba; /*для IE */
+    background-color:#c1c9ba; /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:2px; /* высота 1px IE, Firefox, Opera, Safari */
+    clear:both; /* для очистки, если тег идет после float елемента */
+}
+.facebook
+{
+    display: block;
+    margin: 20px auto;
+   // margin-top: 15px;
+    //padding:4px;
+    border-radius: 6px;
+    width: 305px;
+    height: 50px;
+    background-image: url("../img/Facebook-bg.png");
+    background-repeat: repeat-x;
+}
+/*
+.facebook .f{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 25px;
+    width: 30%;
+    border-right: 1px solid #1f3d71;
+
+}
+.facebook b{
+    font-weight: bold;
+}
+.facebook a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}*/
+
+.ou {
+    overflow: hidden;
+    margin: 15px;
+    margin-left: 19%;
+    margin-right: 19%;
+    color: #999999;
+}
+.ou:before,
+.ou:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 90%;
+    height: 1px;
+    background: #c8c8c8;
+
+}
+.ou:before {
+    margin-left: -80%;
+}
+.ou:after {
+    margin-right: -80%;
+}
+input {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 25px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 0px ;
+    background: black;
+    color: white;
+    opacity: 1;
+}
+
+
+
+input.text:focus{
+    color: #f9f9f9;
+    background: #1b5288;
+    -webkit-box-shadow: 0px 0px 17px 1px rgba(77, 171, 255, 0.95);
+    -moz-box-shadow: 0px 0px 17px 1px rgba(77, 171, 255, 0.95);
+    box-shadow: 0px 0px 17px 1px rgba(77, 171, 255, 0.95);
+}
+
+.check{
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.send{
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+
+.submit{
+    cursor: pointer;
+    background-image: url("../img/button.png");
+    background-repeat: repeat-x;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+}
+.register p{
+    font-size: 10px;
+    color: #cccccc;
+}
