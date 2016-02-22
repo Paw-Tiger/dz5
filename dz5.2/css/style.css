@@ -1,6 +1,8 @@
 body{
     background-image: url("../img/background.jpg");
     background-size: cover;
+    background-position:center;
+
 }
 .general_menu {
     display: inline-block;
@@ -28,7 +30,7 @@ ul.menu .ola_bg{
     background-repeat: repeat-x;
 }
 .menu li.wm{
-    width:15%
+    width:18%
 }
 .menu .fl{
     display: inline-block;
@@ -44,7 +46,7 @@ ul.menu .ola_bg{
     margin:0;
     padding: 0;
     list-style-type: none;
-    width: 8%;
+    width: 10%;
 
 }
 .menu > a{
